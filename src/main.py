@@ -3,13 +3,18 @@ from fastapi import FastAPI
 from pydantic import BaseModel
 import joblib
 import numpy as np
+import os
 import pandas as pd
 from typing import Union,Optional
 
 # Load pre-trained machine learning model and label encoder
 #pipeline = joblib.load("logpipelinebal.joblib")
-pipeline = joblib.load("knnpipelinebal.joblib")
-encoder = joblib.load("labelencoderbal.joblib")
+
+file_path_pipeline= os.path.abspath("dev/knnpipelinebal.joblib")
+file_path_label = os.path.abspath("dev/labelencoderbal.joblib")
+
+pipeline = joblib.load(file_path_pipeline)
+encoder = joblib.load(file_path_label)
 
 # Create a FastAPI instance
 app = FastAPI()
