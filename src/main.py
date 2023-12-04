@@ -10,7 +10,7 @@ from typing import Union,Optional
 # Load pre-trained machine learning model and label encoder
 #pipeline = joblib.load("logpipelinebal.joblib")
 
-file_path_pipeline= os.path.abspath("dev/knnpipelinebal.joblib")
+file_path_pipeline= os.path.abspath("dev/logpipelinebal.joblib")
 file_path_label = os.path.abspath("dev/labelencoderbal.joblib")
 
 pipeline = joblib.load(file_path_pipeline)
