@@ -20,7 +20,7 @@ Author
  Enoch Taylor-Nketiah
 
 Article Link
- Deploying API Applications in Docker Containers
+ [Deploying API Applications in Docker Containers](https://www.linkedin.com/feed/update/urn:li:activity:7136748015930732544/)
 
 App Screenshots
 <img width="1792" alt="Screenshot 2023-12-06 at 3 33 20 PM" src="https://github.com/kojoboyoo/Lp6pro/assets/137324360/ff971464-07e8-4f9c-b17a-3f62322e7c61">
