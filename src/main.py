@@ -8,7 +8,7 @@ import pandas as pd
 from typing import Union,Optional
 
 # Load pre-trained machine learning model and label encoder
-#pipeline = joblib.load("logpipelinebal.joblib")
+
 
 file_path_pipeline= os.path.abspath("dev/logpipelinebal.joblib")
 file_path_label = os.path.abspath("dev/labelencoderbal.joblib")
@@ -43,7 +43,9 @@ def sephome():
 
 # Define a route for the prediction endpoint with HTTP POST method
 @app.post("/predict", response_model=PredictionResult)
+
 def predict(data: InputData):
+
     try:
         # Create a DataFrame using the fields from InputData
         df = pd.DataFrame([data.dict()])
