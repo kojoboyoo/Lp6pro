@@ -23,7 +23,8 @@ Article Link
  Deploying API Applications in Docker Containers
 
 App Screenshots
- ![Uploading Screenshot 2023-12-06 at 3.33.20 PM.png…]()
+<img width="1792" alt="Screenshot 2023-12-06 at 3 33 20 PM" src="https://github.com/kojoboyoo/Lp6pro/assets/137324360/ff971464-07e8-4f9c-b17a-3f62322e7c61">
+
 
 
 www.computerbild.de
