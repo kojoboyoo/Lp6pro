@@ -57,7 +57,7 @@ For predictions, send a POST request in JSON format:
  
 ## Response Format
 The prediction endpoint will return a JSON response with the predicted result:
-    ```bash
+    ```json
     {
   "prediction": "Positive"
 }
