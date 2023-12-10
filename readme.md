@@ -28,16 +28,14 @@ To embark on this sepsis-predicting journey, make sure you have Docker installed
     ```
  
  
-The API will be accessible at http://127.0.0.1:8000.
+Your API will be waiting for you at http://127.0.0.1:8000. Exciting, right?
  
-## Endpoints
-### Home Endpoint
-http://127.0.0.1:8000/docs
-Provides a welcome message for the Sepsis Prediction App API.
+🚀 Endpoints
+Home Endpoint
+Visit http://127.0.0.1:8000/docs to receive a warm welcome from the Sepsis Prediction App API.
  
-### Prediction Endpoint
-http://127.0.0.1:8000/docs#/default/predict_predict_post
-Accepts POST requests with input data for sepsis prediction. Returns the prediction result.
+Prediction Endpoint
+Head over to http://127.0.0.1:8000/docs#/default/predict_predict_post to submit POST requests with health parameters and get predictions in return.
  
 ## Input Data Format
 The input data for the prediction endpoint should be sent as a POST request in the JSON format with the following structure:
