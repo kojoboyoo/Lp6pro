@@ -1,10 +1,11 @@
-##Sepsis Prediction FastAPI API 🌡️💻
+## Sepsis Prediction FastAPI API 🌡️💻
 
 Welcome to the Sepsis Prediction FastAPI API, where predicting sepsis is just a click away! 🚀 This repository houses a cutting-edge machine learning model built with scikit-learn, wrapped in a FastAPI API that can swiftly analyze health parameters and provide insights into the likelihood of sepsis.
  
  
-## Setup
-To run the sepsis prediction model, you will need to have Docker installed on your machine.
+🛠️ Setup
+
+To embark on this sepsis-predicting journey, make sure you have Docker installed on your machine. Follow these steps:
 
  
  
