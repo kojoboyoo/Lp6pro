@@ -12,7 +12,7 @@ To run the sepsis prediction model, you will need to have Docker installed on yo
 1. Clone the repository:
  
     ```bash
-    git clone https://github.com/doeabla/Last_project.git
+    git clone https://github.com/kojoboyoo/Lp6pro.git
     cd your-repository
     ```
  
@@ -36,7 +36,7 @@ http://127.0.0.1:8000/docs
 Provides a welcome message for the Sepsis Prediction App API.
  
 ### Prediction Endpoint
-http://127.0.0.1:8000/predict
+http://127.0.0.1:8000/docs#/default/predict_predict_post
 Accepts POST requests with input data for sepsis prediction. Returns the prediction result.
  
 ## Input Data Format
@@ -73,9 +73,10 @@ Author
  Enoch Taylor-Nketiah
 
 Article Link
- Deploying API Applications in Docker Containers
+https://www.linkedin.com/pulse/deploying-api-applications-docker-container-enoch-taylor-nketiah-ziaee/
 
 App Screenshots
+![App with results](<Screenshot 2023-12-10 at 4.59.47 PM.png>)
  ![Uploading Screenshot 2023-12-06 at 3.33.20 PM.png…]()
 
 
