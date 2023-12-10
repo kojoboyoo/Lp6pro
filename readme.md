@@ -84,5 +84,5 @@ Read more about the deployment process on https://www.linkedin.com/pulse/deployi
 
 🚀 Deployed App
 Behold the deployed app! http://localhost:8000/docs#/default/predict_predict_post
-Also available on Docker Hub. Launch it into the Docker universe! 🌌
- https://hub.docker.com/repository/docker/kojoboyoo/sep_results/general
+Also available on Docker Hub https://hub.docker.com/repository/docker/kojoboyoo/sep_results/general. Launch it into the Docker universe! 🌌
+
