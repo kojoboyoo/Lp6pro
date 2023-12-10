@@ -59,8 +59,8 @@ For predictions, send a POST request in JSON format:
 The prediction endpoint will return a JSON response with the predicted result:
     ```json
     {
-  "prediction": "Positive"
-}
+      "prediction": "Positive"
+    }
     ```
 
 
