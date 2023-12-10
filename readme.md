@@ -77,7 +77,8 @@ https://www.linkedin.com/pulse/deploying-api-applications-docker-container-enoch
 
 App Screenshots
 ![App with results](<Screenshot 2023-12-10 at 4.59.47 PM.png>)
- ![Uploading Screenshot 2023-12-06 at 3.33.20 PM.png…]()
+<img width="787" alt="Screenshot 2023-12-10 at 4 59 47 PM" src="https://github.com/kojoboyoo/Lp6pro/assets/137324360/5fb4e0c4-6bdf-4c80-ba91-ade7bc14a858">
+
 
 
 www.computerbild.de
