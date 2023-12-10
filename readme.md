@@ -81,7 +81,9 @@ App Screenshots
 
 
 
-app screenshot 
+deployed app screenshot 
+<img width="1588" alt="Screenshot 2023-12-10 at 5 54 03 PM" src="https://github.com/kojoboyoo/Lp6pro/assets/137324360/6c296cc9-68da-4820-b1da-a27254c34c70">
+
 
 Deployed App Link
  http://localhost:8000/docs#/default/predict_predict_post
