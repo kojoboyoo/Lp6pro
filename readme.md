@@ -1,33 +1,68 @@
-# Sepsis Prediction Model
-
-## Introduction
-
-Sepsis is a life-threatening medical condition that arises when the body's response to infection causes widespread inflammation, leading to organ dysfunction. Early detection of sepsis is critical for timely intervention and improved patient outcomes. In the context of an Intensive Care Unit (ICU), where patients are already vulnerable, the ability to predict the likelihood of sepsis can be a game-changer. This project aims to leverage machine learning techniques to create a predictive model that can identify patients at risk of developing sepsis based on their medical details.
-
-## Problem Statement
-Despite advances in medical technology, sepsis remains a major challenge in ICUs, with its rapid onset and diverse clinical presentations. Early identification of sepsis is often difficult, leading to delayed interventions and increased mortality rates. This project addresses the need for a reliable and timely predictive model to assist healthcare professionals in identifying ICU patients who are at a higher risk of developing sepsis.
-
+# Sepsis Prediction FastAPI API
+ 
+## Overview
+ 
+This repository contains a FastAPI API for predicting sepsis based on a machine learning model. The model is built using scikit-learn and is available as a joblib pipeline. The API accepts input data related to various health parameters and returns a prediction regarding the likelihood of sepsis.
+ 
 ## Setup
-To run the sepsis prediction model, you will need to have Docker installed on your machine. Once you have Docker installed, you can run the following command to start the model:
-
-Use code with caution. Learn more
-
- docker run sep_results -p 8000:800
-
- This will start the model on port 8000. You can then access the model's documentation at http://localhost:8000/docs#/default/predict_predict_post.
-
-Author
- Enoch Taylor-Nketiah
-
-Article Link
- [Deploying API Applications in Docker Containers](https://www.linkedin.com/feed/update/urn:li:activity:7136748015930732544/)
-
-App Screenshots
-<img width="1792" alt="Screenshot 2023-12-06 at 3 33 20 PM" src="https://github.com/kojoboyoo/Lp6pro/assets/137324360/ff971464-07e8-4f9c-b17a-3f62322e7c61">
-
-
-
-www.computerbild.de
-app screenshot 1
-Deployed App Link
- http://localhost:8000/docs#/default/predict_predict_post
+ 
+ 
+1. Clone the repository:
+ 
+    ```bash
+    git clone https://github.com/doeabla/Last_project.git
+    cd your-repository
+    ```
+ 
+2. Install the required Python packages:
+ 
+    ```bash
+    pip install -r requirements.txt
+    ```
+ 
+3. Run the FastAPI Server:
+    ```bash
+    uvicorn main:app --reload
+    ```
+ 
+ 
+The API will be accessible at http://127.0.0.1:8000.
+ 
+## Endpoints
+### Home Endpoint
+http://127.0.0.1:8000/docs
+Provides a welcome message for the Sepsis Prediction App API.
+ 
+### Prediction Endpoint
+http://127.0.0.1:8000/predict
+Accepts POST requests with input data for sepsis prediction. Returns the prediction result.
+ 
+## Input Data Format
+The input data for the prediction endpoint should be sent as a POST request in the JSON format with the following structure:
+    ```bash
+    {
+  "Plasma_glucose": int,
+  "Blood_work1": int,
+  "Blood_Pressure": int,
+  "Blood_work2": int,
+  "Blood_work3": int,
+  "BMI": float,
+  "Blood_work4": float,
+  "Age": int,
+  "Insurance": int
+}
+    ```
+ 
+## Response Format
+The prediction endpoint will return a JSON response with the predicted result:
+    ```bash
+    {
+  "prediction": "Positive"
+}
+    ```
+ 
+## Note:
+ 
+Make sure to have Python installed.
+Ensure that FastAPI and other dependencies are installed using the provided requirements.txt file.
+The API runs on http://127.0.0.1:8000 by default.
