@@ -69,22 +69,18 @@ The prediction endpoint will return a JSON response with the predicted result:
 
  This will start the model on port 8000. You can then access the model's documentation at http://localhost:8000/docs#/default/predict_predict_post.
 
-Author
+🧑‍💻 Author
  Enoch Taylor-Nketiah
 
-Article Link
-https://www.linkedin.com/pulse/deploying-api-applications-docker-container-enoch-taylor-nketiah-ziaee/
+📰 Article Link
+Read more about the deployment process on https://www.linkedin.com/pulse/deploying-api-applications-docker-container-enoch-taylor-nketiah-ziaee/
 
-App Screenshots
+📸 App Screenshots
 <img width="787" alt="Screenshot 2023-12-10 at 4 59 47 PM" src="https://github.com/kojoboyoo/Lp6pro/assets/137324360/5fb4e0c4-6bdf-4c80-ba91-ade7bc14a858">
 
 
 
-
-deployed app screenshot 
-<img width="1588" alt="Screenshot 2023-12-10 at 5 54 03 PM" src="https://github.com/kojoboyoo/Lp6pro/assets/137324360/6c296cc9-68da-4820-b1da-a27254c34c70">
-
-
-Deployed App Link
- http://localhost:8000/docs#/default/predict_predict_post
+🚀 Deployed App
+Behold the deployed app! http://localhost:8000/docs#/default/predict_predict_post
+Also available on Docker Hub. Launch it into the Docker universe! 🌌
  https://hub.docker.com/repository/docker/kojoboyoo/sep_results/general
