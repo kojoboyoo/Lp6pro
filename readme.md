@@ -37,10 +37,10 @@ Visit http://127.0.0.1:8000/docs to receive a warm welcome from the Sepsis Predi
 Prediction Endpoint
 Head over to http://127.0.0.1:8000/docs#/default/predict_predict_post to submit POST requests with health parameters and get predictions in return.
  
-## Input Data Format
-The input data for the prediction endpoint should be sent as a POST request in the JSON format with the following structure:
-    ```bash
-    {
+📋 Input Data Format
+
+For predictions, send a POST request in JSON format:
+   {
   "Plasma_glucose": int,
   "Blood_work1": int,
   "Blood_Pressure": int,
@@ -51,7 +51,7 @@ The input data for the prediction endpoint should be sent as a POST request in t
   "Age": int,
   "Insurance": int
 }
-    ```
+
  
 ## Response Format
 The prediction endpoint will return a JSON response with the predicted result:
