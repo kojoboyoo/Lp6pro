@@ -40,17 +40,18 @@ Head over to http://127.0.0.1:8000/docs#/default/predict_predict_post to submit 
 📋 Input Data Format
 
 For predictions, send a POST request in JSON format:
- | Field            | Type  |
-|------------------|-------|
-| Plasma_glucose   | int   |
-| Blood_work1      | int   |
-| Blood_Pressure   | int   |
-| Blood_work2      | int   |
-| Blood_work3      | int   |
-| BMI              | float |
-| Blood_work4      | float |
-| Age              | int   |
-| Insurance        | int   |
+```json
+{
+  "Plasma_glucose": "int",
+  "Blood_work1": "int",
+  "Blood_Pressure": "int",
+  "Blood_work2": "int",
+  "Blood_work3": "int",
+  "BMI": "float",
+  "Blood_work4": "float",
+  "Age": "int",
+  "Insurance": "int"
+}
 
 
  
