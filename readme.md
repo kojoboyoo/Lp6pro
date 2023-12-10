@@ -52,7 +52,7 @@ For predictions, send a POST request in JSON format:
   "Age": "int",
   "Insurance": "int"
 }
-
+```
 
  
 ## Response Format
